@@ -1,4 +1,9 @@
-console.log("hello world!")
+import { question } from "readline-sync"
+
+console.log("welcome user!")
+
+let name = question("What is your name? ")
+console.log(`welcome again, ${name}!`)
 
 // var readlineSync = require("readline-sync")
 
